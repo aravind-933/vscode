@@ -1,0 +1,29 @@
+# STEP 1: Create the environment
+# Run this command only once
+conda create -n ragclass python=3.11 -y
+
+
+# STEP 2: Activate the environment
+# Run this whenever you open a new terminal
+conda activate ragclass
+
+# STEP 3: Confirm the Python version
+python --version
+
+# STEP 4: Upgrade pip
+python -m pip install --upgrade pip
+# STEP 5: Install project packages
+python -m pip install -r requirements.txt
+
+# STEP 6: Run the application
+python -m streamlit run app.py
+
+
+
+conda create -n ragclass python=3.11 -y
+conda activate ragclass
+python --version
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
+python -m streamlit run app.py
+python -m pip install -r requirements.txt
